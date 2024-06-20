@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(102, 205, 171, 0.651);
+    font-family: 'Press Start 2P';
+    width: 100vw;
+    height: 100vh;
+}
+
+.login{
+    border: 2px solid mediumaquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 550px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(236, 240, 236);
+    color: rgb(22, 175, 155);
+    padding: 0;
+    margin-top: 50px;
+}
+
+#p-login{
+    margin-top: 30px;
+}
+
+#p-login::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: mediumaquamarine;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.user{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+label{
+    margin-left: 15px;
+    color: rgb(38, 53, 38);
+    margin-top: 15px;
+}
+
+.user input{
+    width: 95%;
+    padding: 14px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin:10px;
+    position: center;
+    border-color: rgb(158, 223, 158);
+    border-top: rgb(158, 223, 158);
+    border-left: rgb(207, 245, 207);
+    font-family: 'Press Start 2P';
+    background-color: black;
+    color:rgb(236, 240, 236);
+    
+}
+
+.footer{
+    margin-top: 70px;
+    font-size: 15px;
+    background-color: rgba(0, 250, 154, 0.13);
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    border-radius: 5px;
+}
+
+a{
+    color: rgb(15, 141, 124);
+    text-decoration: none;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+    color:mediumaquamarine;
+    transition: all 0.4s ease;
+}
+
+#p-footer{
+    margin-right: 45px;
+    color: rgb(39, 39, 39);
+}
+
+form button{
+    margin-top: 40px;
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+    background-color: mediumaquamarine;
+    border-color: mediumaquamarine;
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background-color: rgb(15, 199, 138);
+    box-shadow: 0px 5px 3px 3px rgba(2, 22, 15, 0.397);
+    transition: all 0.4s ease;
+}
+
+
+
